@@ -284,7 +284,7 @@ v1[LogVec]        # Returns only those elements from v1 that are > 3
 
 # To add more elements to a vector, simply assign them values.
 # Elements 5 to 10 are assigned values 5,6,7,8,9,10:
-v1[6:10] <- 6:10
+v1[5:10] <- 5:10
 
 # We can also directly assign the vector a length:
 length(v1) <- 15 # the last 5 elements are added as missing data: NA
